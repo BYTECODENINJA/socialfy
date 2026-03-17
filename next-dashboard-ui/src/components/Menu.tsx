@@ -136,26 +136,47 @@ const menuItems = [
 
 const Menu = () => {
     return (
-        <div className="mt-4 text-sm w-full">
+        <div className="mt-0 md:mt-4 text-sm w-full flex flex-row md:flex-col gap-1 md:gap-0">
             {menuItems.map((i) => (
-                <div className="flex flex-col gap-1 mb-4" key={i.title}>
+                <div className="flex flex-row md:flex-col gap-1 md:gap-1 md:mb-4" key={i.title}>
+                    {/* Section title — only visible on large screens */}
                     <span className="hidden lg:block text-purple-200 font-semibold text-xs my-2 px-2 tracking-wider">
                         {i.title}
                     </span>
+
                     {i.items.map((item) => {
                         const Icon = item.icon;
                         return (
-                            <Link
-                                href={item.href}
-                                key={item.label}
-                                className="flex items-center gap-3 text-white hover:bg-white/20 rounded-xl px-2 py-2 transition-colors group"
-                            >
-                                <Icon
-                                    size={20}
-                                    className="shrink-0 text-white group-hover:text-yellow-300 transition-colors"
-                                />
-                                <span className="hidden lg:block">{item.label}</span>
-                            </Link>
+                            <div key={item.label} className="relative group">
+                                <Link
+                                    href={item.href}
+                                    className="flex items-center gap-3 text-white hover:bg-white/20 rounded-xl px-2 py-2 transition-colors"
+                                >
+                                    <Icon
+                                        size={20}
+                                        className="shrink-0 text-white group-hover:text-yellow-300 transition-colors"
+                                    />
+                                    {/* Label — only shown on large screens */}
+                                    <span className="hidden lg:block">{item.label}</span>
+                                </Link>
+
+                                {/* Tooltip — only shown on small/medium screens (hidden on lg+) */}
+                                <div className="
+                                    lg:hidden
+                                    absolute left-full top-1/2 -translate-y-1/2 ml-3
+                                    bg-gray-900 text-white text-xs font-medium
+                                    px-2 py-1 rounded-md whitespace-nowrap
+                                    opacity-0 group-hover:opacity-100
+                                    pointer-events-none
+                                    transition-opacity duration-200
+                                    z-50
+                                    shadow-lg
+                                ">
+                                    {item.label}
+                                    {/* Arrow pointing left */}
+                                    <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-gray-900" />
+                                </div>
+                            </div>
                         );
                     })}
                 </div>
