@@ -82,11 +82,11 @@ export default function Pricing() {
               </ul>
 
               <div className="mt-auto">
-                <Link href="/signup" className="w-full">
-                  <Button className={`w-full py-8 text-xl font-black border-2 border-black rounded-2xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] active:shadow-none transition-all active:translate-x-1 active:translate-y-1 ${plan.highlight ? 'bg-black text-white hover:bg-gray-800' : 'bg-white text-black hover:bg-gray-50'}`}>
+                <Button className={`w-full py-8 text-xl font-black border-2 border-black rounded-2xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] active:shadow-none transition-all active:translate-x-1 active:translate-y-1 ${plan.highlight ? 'bg-black text-white hover:bg-gray-800' : 'bg-white text-black hover:bg-gray-50'}`} nativeButton={false} render={
+                  <Link href="/signup">
                     {plan.cta} <ArrowRight className="ml-2" />
-                  </Button>
-                </Link>
+                  </Link>
+                } />
               </div>
             </div>
           ))}

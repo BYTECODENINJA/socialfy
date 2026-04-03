@@ -11,11 +11,13 @@ import {
   Plus,
   ArrowUpRight,
   MoreHorizontal,
-  Menu
+  Menu,
+  LogOut
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { UserButton, useUser, SignOutButton } from "@clerk/nextjs";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   Sheet,
@@ -58,6 +60,8 @@ const UpcomingPost = ({ title, time }: { title: string, time: string }) => (
 );
 
 export default function Dashboard() {
+  const { user } = useUser();
+
   const SidebarContent = () => (
     <>
       <div className="px-4 py-2">
@@ -72,6 +76,22 @@ export default function Dashboard() {
         <SidebarItem icon={Users} label="Accounts" />
         <SidebarItem icon={Settings} label="Settings" />
       </nav>
+
+      <div className="mt-auto pt-8 border-t-2 border-black/5">
+        <div className="flex items-center gap-3 px-4 py-3">
+           <UserButton afterSignOutUrl="/" />
+           <div className="flex flex-col overflow-hidden">
+              <span className="font-bold text-sm truncate">{user?.fullName || 'User'}</span>
+              <span className="text-xs text-gray-500 truncate">{user?.primaryEmailAddress?.emailAddress}</span>
+           </div>
+        </div>
+        <SignOutButton>
+           <div className="flex items-center gap-3 px-4 py-3 mt-2 rounded-xl cursor-pointer hover:bg-red-50 text-red-600 transition-all border-2 border-transparent hover:border-red-200">
+              <LogOut size={20} />
+              <span className="font-bold text-sm">Sign Out</span>
+           </div>
+        </SignOutButton>
+      </div>
     </>
   );
 
@@ -91,6 +111,7 @@ export default function Dashboard() {
             <div className="lg:hidden">
               <Sheet>
                 <SheetTrigger
+                  nativeButton={false}
                   render={
                     <Button variant="outline" size="icon" className="border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                       <Menu size={20} />
@@ -109,9 +130,14 @@ export default function Dashboard() {
             </div>
             <h2 className="text-2xl md:text-3xl font-black">Overview</h2>
           </div>
-          <Button className="bg-[#D1FF6B] text-black border-2 border-black rounded-full px-4 py-4 md:px-6 md:py-6 font-bold hover:bg-[#b8f04d] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-x-1 active:translate-y-1 active:shadow-none cursor-pointer text-sm md:text-base">
-            <Plus className="mr-1 md:mr-2" size={18} /> <span className="hidden sm:inline">New Post</span><span className="sm:hidden">Post</span>
-          </Button>
+          <div className="flex items-center gap-4">
+            <Button className="bg-[#D1FF6B] text-black border-2 border-black rounded-full px-4 py-4 md:px-6 md:py-6 font-bold hover:bg-[#b8f04d] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-x-1 active:translate-y-1 active:shadow-none cursor-pointer text-sm md:text-base">
+              <Plus className="mr-1 md:mr-2" size={18} /> <span className="hidden sm:inline">New Post</span><span className="sm:hidden">Post</span>
+            </Button>
+            <div className="ml-2 pl-4 border-l-2 border-black/10 hidden md:block">
+               <UserButton afterSignOutUrl="/" />
+            </div>
+          </div>
         </header>
 
         {/* Stats Grid */}

@@ -1,5 +1,5 @@
 import { db } from "@/lib/db";
-import { users } from "@/lib/db/schema";
+import { users } from "@/lib/db/schema/index";
 import { Webhook } from "svix";
 import { headers } from "next/headers";
 import { WebhookEvent } from "@clerk/nextjs/server";

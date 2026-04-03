@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Twitter, Instagram, Linkedin, Github } from "lucide-react";
+import { Twitter, Instagram, Linkedin, Github, Facebook } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -18,7 +18,7 @@ export default function Footer() {
               Socialfy is an all-in-one social media management platform built for modern creators who value efficiency and bold design.
             </p>
             <div className="flex gap-4">
-              {[Twitter, Instagram, Linkedin, Github].map((Icon, i) => (
+              {[Twitter, Instagram, Linkedin, Github, Facebook].map((Icon, i) => (
                 <Link key={i} href="#" className="p-3 bg-white border-2 border-black rounded-xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-[#D1FF6B] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
                   <Icon size={20} />
                 </Link>

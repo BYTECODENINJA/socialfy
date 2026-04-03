@@ -4,10 +4,13 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { UserButton, useUser, SignInButton, SignUpButton } from "@clerk/nextjs";
 import { cn } from "@/lib/utils";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const { isSignedIn, user } = useUser();
 
   const navLinks = [
     { name: "Features", href: "#features" },
@@ -34,16 +37,30 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="flex items-center gap-4">
-            <Link href="/signin">
-              <Button variant="ghost" className="font-bold text-lg border-2 border-transparent hover:border-black rounded-xl">
-                Log in
-              </Button>
-            </Link>
-            <Link href="/signup">
-              <Button className="bg-[#D1FF6B] text-black border-2 border-black rounded-xl px-6 py-5 font-bold text-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-[#b8f04d] transition-all active:translate-x-1 active:translate-y-1 active:shadow-none">
-                Sign Up
-              </Button>
-            </Link>
+            {isSignedIn ? (
+              <>
+                <Link
+                  href="/dashboard"
+                  className="font-bold text-lg hover:underline underline-offset-4 decoration-2"
+                >
+                  Dashboard
+                </Link>
+                <UserButton />
+              </>
+            ) : (
+              <>
+                <Button variant="ghost" className="font-bold text-lg border-2 border-transparent hover:border-black rounded-xl" asChild>
+                  <Link href="/signin">
+                    Log in
+                  </Link>
+                </Button>
+                <Button className="bg-[#D1FF6B] text-black border-2 border-black rounded-xl px-6 py-5 font-bold text-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-[#b8f04d] transition-all active:translate-x-1 active:translate-y-1 active:shadow-none" asChild>
+                  <Link href="/signup">
+                    Sign Up
+                  </Link>
+                </Button>
+              </>
+            )}
           </div>
         </div>
 
@@ -75,16 +92,31 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="flex flex-col w-full gap-4 mt-4">
-            <Link href="/signin" className="w-full">
-              <Button variant="outline" className="w-full font-bold text-lg border-2 border-black rounded-xl py-6 bg-white">
-                Log in
-              </Button>
-            </Link>
-            <Link href="/signup" className="w-full">
-              <Button className="w-full bg-[#D1FF6B] text-black border-2 border-black rounded-xl py-6 font-bold text-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-                Get Started
-              </Button>
-            </Link>
+            {isSignedIn ? (
+              <>
+                <Button className="w-full bg-[#D1FF6B] text-black border-2 border-black rounded-xl py-6 font-bold text-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]" asChild>
+                  <Link href="/dashboard" onClick={() => setIsOpen(false)}>
+                    Dashboard
+                  </Link>
+                </Button>
+                <div className="flex justify-center py-2">
+                   <UserButton />
+                </div>
+              </>
+            ) : (
+              <>
+                <Button variant="outline" className="w-full font-bold text-lg border-2 border-black rounded-xl py-6 bg-white" asChild>
+                  <Link href="/signin" onClick={() => setIsOpen(false)}>
+                    Log in
+                  </Link>
+                </Button>
+                <Button className="w-full bg-[#D1FF6B] text-black border-2 border-black rounded-xl py-6 font-bold text-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]" asChild>
+                  <Link href="/signup" onClick={() => setIsOpen(false)}>
+                    Get Started
+                  </Link>
+                </Button>
+              </>
+            )}
           </div>
         </div>
       </div>

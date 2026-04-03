@@ -26,16 +26,16 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-6">
-          <Link href="/signup">
-            <Button className="bg-[#D1FF6B] text-black border-2 border-black rounded-2xl px-10 py-8 text-xl font-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:bg-[#b8f04d] transition-all active:translate-x-1 active:translate-y-1 active:shadow-none">
+          <Button className="bg-[#D1FF6B] text-black border-2 border-black rounded-2xl px-10 py-8 text-xl font-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:bg-[#b8f04d] transition-all active:translate-x-1 active:translate-y-1 active:shadow-none" nativeButton={false} render={
+            <Link href="/signup">
               Start for Free <ArrowRight className="ml-2" />
-            </Button>
-          </Link>
-          <Link href="#features">
-            <Button variant="outline" className="bg-white border-2 border-black rounded-2xl px-10 py-8 text-xl font-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:bg-gray-100 transition-all active:translate-x-1 active:translate-y-1 active:shadow-none">
+            </Link>
+          } />
+          <Button variant="outline" className="bg-white border-2 border-black rounded-2xl px-10 py-8 text-xl font-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:bg-gray-100 transition-all active:translate-x-1 active:translate-y-1 active:shadow-none" nativeButton={false} render={
+            <Link href="#features">
               See Features
-            </Button>
-          </Link>
+            </Link>
+          } />
         </div>
 
         {/* Abstract shapes/Icons for visual interest */}
