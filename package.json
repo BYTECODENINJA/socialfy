@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^7.0.8",
+    "@google/generative-ai": "^0.24.1",
+    "@neondatabase/serverless": "^1.0.2",
+    "bullmq": "^5.72.1",
+    "dotenv": "^17.4.0",
+    "drizzle-orm": "^0.45.2",
+    "imagekit": "^6.0.0",
+    "ioredis": "^5.10.1",
+    "svix": "^1.90.0",
+    "zod": "^4.3.6"
+  }
+}
