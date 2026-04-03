@@ -1,0 +1,362 @@
+
+Path
+----
+C:\Users\GhostKing808\Desktop
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\authentication
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : authentication
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : authentication
+FullName          : C:\Users\GhostKing808\Desktop\authentication
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 14/03/2026 19:01:49
+CreationTimeUtc   : 14/03/2026 16:01:49
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 20/03/2026 13:00:36
+LastWriteTimeUtc  : 20/03/2026 10:00:36
+Attributes        : Directory
+Mode              : d-----
+BaseName          : authentication
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\esvids
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : esvids
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : esvids
+FullName          : C:\Users\GhostKing808\Desktop\esvids
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 13/03/2026 20:30:37
+CreationTimeUtc   : 13/03/2026 17:30:37
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 16/03/2026 12:14:15
+LastWriteTimeUtc  : 16/03/2026 09:14:15
+Attributes        : Directory
+Mode              : d-----
+BaseName          : esvids
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\FastResume
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : FastResume
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : FastResume
+FullName          : C:\Users\GhostKing808\Desktop\FastResume
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 22/03/2026 15:39:11
+CreationTimeUtc   : 22/03/2026 12:39:11
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 22/03/2026 16:29:43
+LastWriteTimeUtc  : 22/03/2026 13:29:43
+Attributes        : Directory
+Mode              : d-----
+BaseName          : FastResume
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\FocusOS
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : FocusOS
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : FocusOS
+FullName          : C:\Users\GhostKing808\Desktop\FocusOS
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 13/03/2026 10:30:24
+CreationTimeUtc   : 13/03/2026 07:30:24
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 13/03/2026 12:15:51
+LastWriteTimeUtc  : 13/03/2026 09:15:51
+Attributes        : Directory
+Mode              : d-----
+BaseName          : FocusOS
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\images
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : images
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : images
+FullName          : C:\Users\GhostKing808\Desktop\images
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 12/03/2026 09:56:06
+CreationTimeUtc   : 12/03/2026 06:56:06
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 12/03/2026 09:59:00
+LastWriteTimeUtc  : 12/03/2026 06:59:00
+Attributes        : Directory
+Mode              : d-----
+BaseName          : images
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\learnerd
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : learnerd
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : learnerd
+FullName          : C:\Users\GhostKing808\Desktop\learnerd
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 23/03/2026 15:41:06
+CreationTimeUtc   : 23/03/2026 12:41:06
+LastAccessTime    : 03/04/2026 11:46:20
+LastAccessTimeUtc : 03/04/2026 08:46:20
+LastWriteTime     : 02/04/2026 15:54:11
+LastWriteTimeUtc  : 02/04/2026 12:54:11
+Attributes        : Directory
+Mode              : d-----
+BaseName          : learnerd
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\Mackenzie
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : Mackenzie
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : Mackenzie
+FullName          : C:\Users\GhostKing808\Desktop\Mackenzie
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 15/03/2026 09:23:10
+CreationTimeUtc   : 15/03/2026 06:23:10
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 15/03/2026 13:56:55
+LastWriteTimeUtc  : 15/03/2026 10:56:55
+Attributes        : Directory, Archive
+Mode              : da----
+BaseName          : Mackenzie
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\movies
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : movies
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : movies
+FullName          : C:\Users\GhostKing808\Desktop\movies
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 26/02/2026 14:32:51
+CreationTimeUtc   : 26/02/2026 11:32:51
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 26/02/2026 14:32:51
+LastWriteTimeUtc  : 26/02/2026 11:32:51
+Attributes        : ReadOnly, Directory, Archive
+Mode              : dar---
+BaseName          : movies
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\portfolio
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : portfolio
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : portfolio
+FullName          : C:\Users\GhostKing808\Desktop\portfolio
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 12/03/2026 11:22:09
+CreationTimeUtc   : 12/03/2026 08:22:09
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 30/03/2026 12:35:05
+LastWriteTimeUtc  : 30/03/2026 09:35:05
+Attributes        : Directory
+Mode              : d-----
+BaseName          : portfolio
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\public
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : public
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : public
+FullName          : C:\Users\GhostKing808\Desktop\public
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 16/03/2026 20:12:02
+CreationTimeUtc   : 16/03/2026 17:12:02
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 16/03/2026 20:12:02
+LastWriteTimeUtc  : 16/03/2026 17:12:02
+Attributes        : Directory
+Mode              : d-----
+BaseName          : public
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\RentoSearch
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : RentoSearch
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : RentoSearch
+FullName          : C:\Users\GhostKing808\Desktop\RentoSearch
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 27/02/2026 19:46:26
+CreationTimeUtc   : 27/02/2026 16:46:26
+LastAccessTime    : 03/04/2026 11:11:14
+LastAccessTimeUtc : 03/04/2026 08:11:14
+LastWriteTime     : 01/04/2026 20:29:33
+LastWriteTimeUtc  : 01/04/2026 17:29:33
+Attributes        : Directory
+Mode              : d-----
+BaseName          : RentoSearch
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\socialmedia management
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : socialmedia management
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : socialmedia management
+FullName          : C:\Users\GhostKing808\Desktop\socialmedia management
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 16/03/2026 12:58:10
+CreationTimeUtc   : 16/03/2026 09:58:10
+LastAccessTime    : 03/04/2026 11:48:23
+LastAccessTimeUtc : 03/04/2026 08:48:23
+LastWriteTime     : 03/04/2026 11:48:23
+LastWriteTimeUtc  : 03/04/2026 08:48:23
+Attributes        : Directory
+Mode              : d-----
+BaseName          : socialmedia management
+Target            : {}
+LinkType          :
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop\Wallpapers
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\GhostKing808
+                    \Desktop
+PSChildName       : Wallpapers
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Name              : Wallpapers
+FullName          : C:\Users\GhostKing808\Desktop\Wallpapers
+Parent            : Desktop
+Exists            : True
+Root              : C:\
+Extension         :
+CreationTime      : 26/02/2026 14:32:51
+CreationTimeUtc   : 26/02/2026 11:32:51
+LastAccessTime    : 03/04/2026 09:05:29
+LastAccessTimeUtc : 03/04/2026 06:05:29
+LastWriteTime     : 26/02/2026 14:32:51
+LastWriteTimeUtc  : 26/02/2026 11:32:51
+Attributes        : ReadOnly, Directory, Archive
+Mode              : dar---
+BaseName          : Wallpapers
+Target            : {}
+LinkType          :
+LastWriteTime : 19/03/2026 08:32:05
+Length        : 2357
+Name          : Claude.lnk
+LastWriteTime : 26/02/2026 10:45:29
+Length        : 1344
+Name          : Cursor.lnk
+LastWriteTime : 02/03/2026 14:14:03
+Length        : 2140
+Name          : Docker Desktop.lnk
+LastWriteTime : 26/02/2026 20:01:08
+Length        : 765
+Name          : Downloads - Shortcut.lnk
+LastWriteTime : 11/03/2026 10:43:48
+Length        : 2148
+Name          : JaxCore.lnk
+LastWriteTime : 26/02/2026 10:06:49
+Length        : 2414
+Name          : Joseph - Chrome.lnk
+LastWriteTime : 26/02/2026 08:43:50
+Length        : 5386
+Name          : Removed Apps.html
+LastWriteTime : 27/02/2026 14:51:38
+Length        : 1187
+Name          : Screenify.lnk
+LastWriteTime : 01/04/2026 20:19:28
+Length        : 1306
+Name          : Trae.lnk
+LastWriteTime : 26/02/2026 13:22:01
+Length        : 1431
+Name          : Visual Studio Code.lnk
+LastWriteTime : 26/02/2026 10:01:17
+Length        : 909
+Name          : µTorrent.lnk
